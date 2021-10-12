@@ -1,0 +1,1054 @@
+
+/*Style pour Mobile--------*/
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("../img/dentelle.png");
+	margin: 0;
+	
+}
+
+.textp{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.color-cuisine{
+	color: white;
+
+}
+header{
+	width: 100%;
+	height: 30%;
+	background-color:black;
+}
+
+.color-white{
+	color: white;
+}
+
+.logo{
+
+
+
+    width: 40%;
+    height: 10%;
+    padding-top: 1%;
+    display: block;
+    margin: 0% 30% 0% 30%;
+    
+ 
+
+}
+
+.logo img{
+
+	width: 150%;
+
+}
+.menu-toggle{
+
+font-family: 'Open Sans', sans-serif;
+ font-size:13pt;
+	margin: auto;
+    width: 100%;
+    height: 10%;
+	color: white;
+	text-align: center;
+
+}
+
+
+nav{
+	
+
+	margin: auto;
+    width: 100%;
+    height: 50%;
+ 
+	
+}
+
+li{
+	text-decoration : none;
+	display:block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top:		1px solid #f83c8d;
+	text-align: center;
+}
+
+
+li:last-child{
+	border-bottom:		1px solid #f83c8d;
+}
+
+
+li:hover {
+
+	background-color: #f83c8d;
+
+ } 
+
+nav a{
+	 font-family: 'Open Sans', sans-serif;
+	 font-size:11pt;
+	 color:white;
+	text-decoration : none;
+} 
+
+ul{
+
+	padding-left: 0;
+
+}
+
+
+.recherche{
+
+	margin: auto;
+    width: 100%;
+    height: 10%;
+   
+
+	
+}
+
+
+.formRecherche {
+	display:inline-block;
+	width: 40%;
+	margin: 0% 20% 3% 20%
+
+}
+.formRecherche .champ
+{
+	width:80%;
+	height:200%;
+     float: left;
+	margin-right: 0.5vw;
+
+}
+
+  
+
+i{
+	color:white;
+   
+}
+
+.images1,.images2,.images3{
+
+	color: #f8f8f8;
+	width: 100%;
+    height: 10%;
+	position: relative;
+	margin: 5% 0% 5% 0%;
+
+}
+
+.titre1,.titre2,.titre3{
+
+	width: 100%;
+	position: absolute;
+	z-index: 4;
+	top: 40%;
+
+}
+
+h2 {
+
+	font-family: Sacramento, cursive;
+	font-size: 28pt;
+	text-align: center;
+}
+
+.img1{
+width: 100%;
+height: 100%;
+
+}
+
+.couleur-img1{
+
+    position: absolute;
+	background-color: #ffffff;
+	width: 5%;
+	height: 100%;
+	z-index: 2;
+	opacity: 0.7;
+	transition: width 1s;
+	transition-timing-function: linear;
+
+}
+
+
+
+.images :hover h2 {
+
+ 	 color: white;
+
+ }
+
+.images :hover .couleur-img1 {
+ 	
+ 	
+ 	 width: 100%;
+
+ }
+
+
+
+.img2{
+width: 100%;
+height: 100%;
+
+}
+
+.couleur-img2{
+
+    position: absolute;
+	background-color: #f72b6e;
+	width: 5%;
+	height: 100%;
+	z-index: 2;
+	opacity: 0.7;
+	transition: width 1s;
+	transition-timing-function: linear;
+}
+
+
+.images :hover h2 {
+ 	
+ 	
+ 	 color: white;
+
+ }
+
+.images :hover .couleur-img2 {
+ 	
+ 	
+ 	 width: 100%;
+
+ }
+
+
+
+.img3{
+width: 100%;
+height: 100%;
+
+}
+
+.couleur-img3{
+
+	position: absolute;
+	background-color: #ffffff;
+	width: 5%;
+	height: 100%;
+	z-index: 2;
+	opacity: 0.7;
+	transition: width 1s;
+	transition-timing-function: linear;
+}
+
+
+
+.images :hover h2 {
+ 	
+ 	
+ 	 color: #b4003c;
+
+ }
+
+.images :hover .couleur-img3 {
+ 	
+ 	
+ 	 width: 100%;
+
+ }
+
+
+/*coprs de la page---------------------*/
+h3{
+
+text-align: center;
+font-family: Sacramento, cursive;
+font-size: 14pt;
+color:white; 
+    
+
+
+}
+
+a{text-decoration: none;}
+
+
+ h1{
+
+text-align: center;
+font-family: Sacramento, cursive;
+font-size: 30pt;
+color: #f83c8d;
+
+
+
+ }
+
+p{
+
+	font-family:Quicksand, sans-serif;
+	color:#d8d8d8;
+	font-size: 11pt;
+	padding: 1% 1% 1% 1%;
+	text-align: center;
+
+
+ }
+
+.form-label{
+
+	font-family:Quicksand, sans-serif;
+	color:#d8d8d8;
+	font-size: 11pt;
+	padding: 1% 1% 1% 1%;
+	text-align: center;
+
+
+}
+
+#texte1{
+
+	background-color: black;
+	width: 100%;
+	height: 10%;
+}
+
+
+ .para1 img{
+
+ 	width: 80%;
+ 	margin: 4% 10% 0% 10%;
+ 	border-color: #f83c8d;
+ 	border-style: solid;
+    border-width: 5px;
+ }
+
+ .para2 h1{
+
+	color: #fcfbfb;
+	
+
+
+}
+
+.para2 p{
+
+	color: #ffffff;
+	
+
+}
+
+ #texte2{
+
+
+	width: 100%;
+	height: 10%;
+	margin: 5% 0% 5% 0%;
+	background-color: #f83c8d;
+	background-image: url("../img/dentelle1.png");
+
+}
+
+
+ .para2 img{
+
+
+ 	width: 80%;
+ 	margin: 4% 10% 0% 10%;
+ 	border-color: #ffffff;
+ 	border-style: solid;
+    border-width: 5px;
+ }
+
+ #texte3{
+
+	background-color: black;
+	width: 100%;
+	height: 10%;
+}
+
+
+ .para3 img{
+
+
+ 	width: 80%;
+ 	margin: 4% 10% 0% 10%;
+ 	border-color: #f83c8d;
+ 	border-style: solid;
+    border-width: 5px;
+ }
+
+
+
+footer{
+	width:100%;
+	height:10%;
+	
+	
+	background-color: black;
+	
+}
+
+ 
+
+footer p{
+
+	padding-top: 2%;
+
+
+	text-align: center;
+	font-family:Quicksand, sans-serif;
+	color:#d8d8d8;
+	font-size: 10pt;
+}
+ footer i{
+
+ 	font-size: 18pt;
+ }
+  footer p:last-child{
+
+	
+	font-size: 8pt;
+}
+
+
+
+/*--Page contact-------------------*/
+#formulaireB{
+
+	width: 70%;
+	margin: 12% 15% 0% 15%;
+	padding-top: 1%;
+	background-color: black;
+
+}
+
+
+#formulaireB form{
+
+	width:80%;
+	padding-bottom: 4%;
+	padding-top: 4%;
+	margin: 2% 10% 0% 10%;
+
+
+
+}
+
+
+#btn{
+
+
+	background-color: #f83c8d;
+	border: none;
+	width: 100px;
+	height: 40px;
+	font-size: 12pt;
+	color: white;
+
+
+
+}
+
+
+	
+
+
+textarea{
+
+
+	width: 80%;
+	
+	
+
+}
+
+.error{
+	color: red;
+	border-color: red;
+
+}
+
+.hidden{
+	display: none;
+}
+
+
+/* ------------------------------Grande ecran------------------------------------------------------------------------*/
+@media only screen and (min-width: 1024px) {
+
+
+header{
+	width: 100%;
+	height: 18%;
+	background-color:black;
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+
+
+
+
+}
+
+
+
+
+.color{
+
+	height:100px;
+
+
+}
+.logo{
+
+
+
+    width: 15%;
+    height: 10%;
+    display: block;
+    margin: 1% 0% 0% 5%;
+   	float: left;
+  	animation: animLogo;
+  	animation-duration: 3s;
+
+}
+
+
+.menu-toggle{
+
+display: none;
+
+}
+
+
+nav{
+
+	margin: 2% 0% 0% 0%;
+    width: 60%;
+
+float: left;
+
+
+}
+
+li{
+text-decoration : none;
+ display:inline;
+ padding-right: 3%;
+ margin-right: 3%;
+ border-right:	2px solid #f83c8d;
+ border-top:	none;
+ text-align: center;
+}
+
+
+
+
+li:last-child{
+	border-bottom:	none;
+	border-right:	none;
+}
+
+
+
+nav a{
+  font-family: 'Open Sans', sans-serif;
+ font-size:11pt;
+ color:white;
+text-decoration : none;
+}
+
+ul{
+
+	padding-left: 30%;
+}
+
+
+
+.recherche{
+
+    width: 15%;
+    margin: 3% 0% 0% 0%;
+
+	float: left
+}
+
+
+
+	.formRecherche {
+	display:inline-block;
+	width: 100%;
+	height: 100%
+
+
+
+
+}
+.images{
+
+
+	clear: both;
+	width: 100%;
+	height: 30%;
+	padding-top: 10%
+
+}
+
+.images1{
+    animation:flip;
+	animation-duration: 1s;
+    }
+.images2{
+    animation:flip;
+	animation-duration: 1s;
+    }
+.images3{
+    animation:flip;
+	animation-duration: 1s;
+    }
+
+
+.images1,.images2,.images3{
+
+	width: 30%;
+    height: 100%;
+
+	margin: 5% 1% 5% 2%;
+	float: left;
+
+}
+
+
+
+
+
+#texte1{
+
+clear: both;
+width: 100%;
+margin: 5% 0% 5% 0%;
+padding: 5% 0% 0% 0%;
+height:800px;
+
+
+}
+
+.para1 img{
+
+margin: 5% 2% 5% 2%;
+ 	width: 40%;
+
+ 	float: left;
+
+ }
+ .para-milieu1{
+	margin: 2% 2% 2% 2%;
+ 	width:45%;
+ 	float: left;
+ }
+
+.para1 h3{clear: both;
+
+}
+
+#texte2{
+
+clear: both;
+width: 100%;
+margin: 5% 0% 5% 0%;
+padding: 5% 0% 0% 0%;
+height:800px;
+}
+
+.para2 img{
+
+margin: 5% 2% 5% 2%;
+ 	width: 40%;
+
+ 	float: left;
+
+ }
+ .para-milieu2{
+	margin: 2% 2% 2% 2%;
+ 	width:45%;
+ 	float: left;
+ }
+
+.para2 h3{clear: both;
+}
+
+
+#texte3{
+
+clear: both;
+width: 100%;
+margin: 5% 0% 5% 0%;
+padding: 5% 0% 0% 0%;
+height:800px;
+}
+
+.para3 img{
+
+    margin: 5% 0% 5% 2%;
+    width: 40%;
+    height: 90%;
+    float: left;
+
+ }
+ .para-milieu3{
+	margin: 2% 2% 2% 2%;
+ 	width:50%;
+ 	float: left;
+ }
+ .para3 h3{clear: both;
+}
+
+
+
+/*Animation LOGO----------------*/
+
+@keyframes animLogo {
+  from {
+    opacity: 0;
+    transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/*animation images de la page d'acceuil----------*/
+
+
+
+
+@-webkit-keyframes flip {
+  from {
+  		opacity: 0;
+    transform: perspective(800px) rotate3d(0, 1, 0, -360deg);
+    transform: perspective(800px) rotate3d(0, 1, 0, -360deg);
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  40% {
+  	opacity: 0.3;
+    transform: perspective(800px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    transform: perspective(800px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  50% {
+  	opacity: 0.5;
+    transform: perspective(800px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    transform: perspective(800px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+  	opacity: 0.7;
+    transform: perspective(800px) scale3d(0.95, 0.95, 0.95);
+    transform: perspective(800px) scale3d(0.95, 0.95, 0.95);
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  to {
+  		opacity: 1;
+    transform: perspective(800px);
+    transform: perspective(800px);
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------Tablette-----------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+	header {
+		width: 100%;
+		height: 15%;
+		background-color: black;
+
+		z-index: 5;
+		top: 0;
+		left: 0;
+	}
+
+	.color {
+
+		height: 100px;
+
+
+	}
+
+	.logo {
+
+		/*
+            margin:auto;*/
+		width: 15%;
+		height: 10%;
+		display: block;
+		margin: 1% 0% 0% 5%;
+
+		float: left;
+		animation: animLogo;
+		animation-duration: 3s;
+
+	}
+
+
+	.menu-toggle {
+
+		display: none;
+
+	}
+
+
+	nav {
+
+		margin: 2% 0% 0% 0%;
+		width: 50%;
+
+		float: left;
+
+
+	}
+
+	li {
+		text-decoration: none;
+		display: inline;
+		padding-right: 3%;
+		margin-right: 3%;
+		border-right: 1px solid #f83c8d;
+		border-top: none;
+		text-align: center;
+	}
+
+
+	li:last-child {
+		border-bottom: none;
+		border-right: none;
+	}
+
+
+	nav a {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 11pt;
+		color: white;
+		text-decoration: none;
+	}
+
+	ul {
+
+		padding-left: 20%;
+	}
+
+
+	.recherche {
+
+		width: 20%;
+		margin: 3% 0% 0% 0%;
+
+		float: left
+	}
+
+
+	.formRecherche {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+
+
+	}
+
+
+	.images {
+
+		margin-top: 5%
+	}
+
+	.images1, .images2, .images3 {
+
+
+		width: 50%;
+
+		margin: 2% 25% 5% 25%;
+
+	}
+
+	#texte1 {
+
+		clear: both;
+		width: 100%;
+		margin: 5% 0% 5% 0%;
+		height: 500px;
+
+	}
+
+	.para1 img {
+
+		margin: 5% 2% 5% 2%;
+		width: 40%;
+
+		float: left;
+
+	}
+
+	.para-milieu1 {
+		margin: 2% 2% 2% 2%;
+		width: 45%;
+		float: left;
+	}
+
+	.para1 h3 {
+		clear: both;
+
+	}
+
+	#texte2 {
+
+		clear: both;
+		width: 100%;
+		margin: 5% 0% 5% 0%;
+		height: 500px;
+	}
+
+	.para2 img {
+
+		margin: 5% 2% 5% 2%;
+		width: 40%;
+
+		float: left;
+
+	}
+
+	.para-milieu2 {
+		margin: 2% 2% 2% 2%;
+		width: 45%;
+		float: left;
+	}
+
+	.para2 h3 {
+		clear: both;
+	}
+
+
+	#texte3 {
+
+		clear: both;
+		width: 100%;
+		margin: 5% 0% 5% 0%;
+		height: 500px;
+	}
+
+	.para3 img {
+
+		margin: 5% 2% 5% 2%;
+		width: 40%;
+		height: 90%;
+
+		float: left;
+
+	}
+
+	.para-milieu3 {
+		margin: 2% 2% 2% 2%;
+		width: 45%;
+		float: left;
+	}
+
+	.para3 h3 {
+		clear: both;
+	}
+
+	/*Animation LOGO-----------*/
+	@keyframes animLogo {
+		from {
+			opacity: 0;
+			transform: scale(0.1) rotate(30deg);
+			transform: scale(0.1) rotate(30deg);
+			transform-origin: center bottom;
+			transform-origin: center bottom;
+		}
+
+		50% {
+			transform: rotate(-10deg);
+			transform: rotate(-10deg);
+		}
+
+		70% {
+			transform: rotate(3deg);
+			transform: rotate(3deg);
+		}
+
+		to {
+			opacity: 1;
+			transform: scale(1);
+			transform: scale(1);
+		}
+	}
+
+
+
+
+
+
+
+	/*Page contact----*/
+	#formulaireB {
+
+		margin: 10% 15% 0% 15%;
+		padding-top: 1%;
+	}
+
+
+}
+
