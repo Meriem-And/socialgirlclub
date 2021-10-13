@@ -1,3 +1,19 @@
+<?php
+require ('connex.php');
+foreach ($_POST as $key => $value) {
+    $$key = mysqli_real_escape_string($con, $value);
+
+$password_hash = password_hash($userInfoPass, PASSWORD_BCRYPT);
+ $sql = "INSERT INTO userInfo (userInfoName,userInfoPass) VALUES ('$userInfoName','$password_hash')";
+    mysqli_query($con, $sql);
+
+
+
+echo("comment faire apparaitre cette page html en bas ?")
+
+?>
+
+<!--
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -11,25 +27,25 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 <!--iconeset style -->
 
-	<link rel="stylesheet" href="css/style.css">
+	<<!--link rel="stylesheet" href="css/style.css">
 
 </head>
 
 
 <body>
-
+-->
 
 <!-- entête -->
 
 
-<header class="container">
-	<!-- logo -->
-	<div class="color">
+<!--<header class="container">
+ logo -->
+<!--	<div class="color">
 		<div class="logo"><a href="index.html"><img src="img/logo2.png" alt="logo"/></a></div>
 
-
+-->
 		<!-- navigation -->
-		<nav class="menu-container">
+<!--		<nav class="menu-container">
 			<div class="menu-toggle">Menu</div>
 			<ul>
 				<li><a href="index.html">Accueil</a></li>
@@ -42,19 +58,19 @@
 
 			</ul>
 
-		</nav>
-		<!-- barre de recherche -->
-		<section class="recherche">
+		</nav>-->
+	<!-- barre de recherche -->
+		<!--<section class="recherche">
 			<form class="formRecherche">
 				<input class="champ" type="text" name="Recherche"  placeholder="Rechercher" />
 				<i class="fas fa-search"></i>
 			</form>
-		</section>
+		</section>-->
 
-
+<!--
 	</div>
 </header>
-
+-->
 
 
     <!-- fin entête -->
@@ -63,7 +79,7 @@
 
     <!-- Les 3 banierres cliquable  -->
 
-    <section class="images" >
+  <!--  <section class="images" >
       	
         <div class="images1" >
         	<h2 class="titre1">Notre Restaurant</h2>
@@ -88,11 +104,11 @@
         </div>
 	 
 	</section>
-
+-->
 
 
 	<!-- coprs de la page/paragraphes et images  -->
-	 <section>
+	<!-- <section>
         
 	 	<aside id="texte1">
 	 	<div class="para1">
@@ -152,10 +168,10 @@
        
 	 
 	</section>
-
+-->
 
 <!-- Fotter/pied de page  -->
-	<footer id="footer">
+	<!--<footer id="footer">
 		
 		<p>
 		<i class="fab fa-facebook-square"></i> <i class="fab fa-twitter-square"></i> <i class="fab fa-instagram"></i> <i class="fab fa-youtube-square"></i> <br><br>
@@ -164,25 +180,9 @@
 
 
 	</footer>
+-->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--
 </body>
-</html>
+</html>-->

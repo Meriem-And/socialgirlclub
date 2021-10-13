@@ -24,19 +24,19 @@
 <header class="container">
   <!-- logo -->
   <div class="color">
-    <div class="logo"><a href="index.html"><img src="img/logo2.png" alt="logo"/></a></div>
+    <div class="logo"><a href="index.php"><img src="img/logo2.png" alt="logo"/></a></div>
 
 
     <!-- navigation -->
     <nav class="menu-container">
       <div class="menu-toggle">Menu</div>
       <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="carte.html">La carte</a></li>
-        <li><a href="philo.html">Philosophie</a></li>
-        <li><a href="livreOr.html" class="contact">Livre d'or </a> </li>
-        <li><a href="inscription.html" class="contact">S'inscrire  </a> </li>
-        <li><a href="connexion.html" class="contact">Se connecter   </a> </li>
+        <li><a href="index.php">Accueil</a></li>
+        <li><a href="carte.php">La carte</a></li>
+        <li><a href="philo.php">Philosophie</a></li>
+        <li><a href="livreOr.php" class="contact">Livre d'or </a> </li>
+        <li><a href="inscription.php" class="contact">S'inscrire  </a> </li>
+        <li><a href="connexion.php" class="contact">Se connecter   </a> </li>
 
 
       </ul>
@@ -53,25 +53,19 @@
 <!-- fin entête -->
 
 
-
-<!--le main -->
-
-
-<!-- formulaire contact -->
-
 <section id="formulaireB">
 
   <form id="formulaire" method="post"action="reponse.php" name="formulaire">
 
-    <p>SocialClubGirl <br> Créer un compte   </p>
+    <p>SocialClubGirl <br> Créer un compte  </p>
 
 
     <p>Pseudo:<b>*</b><br>
-      <input class="espacegauche" type="text" name="txtNom" placeholder="Nom Prenom" required>
+      <input class="espacegauche" type="text" name="userInfoName" placeholder="Nom Prenom" required>
     </p>
 
     <p>Mot de passe :<b>*</b><br>
-      <input class="espacegauche" type="text" name="txtNom" placeholder="Nom Prenom" required>
+      <input class="espacegauche" type="text" name="userInfoPass" placeholder="Nom Prenom" required>
     </p>
 
     <input id="btn" type="submit" name="txtSoumettre" value="Envoyer !" />
