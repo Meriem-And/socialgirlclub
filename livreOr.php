@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -23,103 +26,41 @@
 
 
 <header class="container">
-	<!-- logo -->
-	<div class="color">
-		<div class="logo"><a href="index.php"><img src="img/logo2.png" alt="logo"/></a></div>
+    <!-- logo -->
+    <div class="color">
+        <div class="logo"><a class="img-logo" href="index.php"><img  class="img-logo" src="img/logo2.png" alt="logo"/></a></div>
 
 
-		<!-- navigation -->
-		<nav class="menu-container">
-			<div class="menu-toggle">Menu</div>
-			<ul>
-				<li><a href="index.php">Accueil</a></li>
-				<li><a href="carte.php">La carte</a></li>
-				<li><a href="philo.php">Philosophie</a></li>
-				<li><a href="livreOr.php" class="contact">Livre d'or </a> </li>
-				<li><a href="inscription.php" class="contact">S'inscrire  </a> </li>
-				<li><a href="connexion.php" class="contact">Se connecter   </a> </li>
+        <!-- navigation -->
+        <nav class="menu-container">
+            <div class="menu-toggle">Menu</div>
+            <ul>
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="carte.php">La carte</a></li>
+                <li><a href="philo.php">Philosophie</a></li>
+                <li><a href="livreOr.php" class="contact">Livre d'or </a></li>
+                <li><a href="inscription.php" class="contact">S'inscrire </a></li>
+                <li class="bienvenu"><?php if (isset($_SESSION["user"]) ) {
+                        echo "Bienvenu " . $_SESSION["user"];
 
 
-			</ul>
-
-		</nav>
-		<!-- barre de recherche -->
-		<section class="recherche">
-			<form class="formRecherche">
-				<input class="champ" type="text" name="Recherche"  placeholder="Rechercher" />
-				<i class="fas fa-search"></i>
-			</form>
-		</section>
+                    }
+                    else{
+                        echo '<a href="connexion.php" class="contact">Se connecter </a>';
+                    }?> </li>
+                <?php if(isset($_SESSION["user"])) {
+                    echo "<li><a href='php/deconnection.php'>Déconnection</a></li>";
+                } ?>
 
 
-	</div>
+
+
+            </ul>
+
+        </nav>
+
+
+    </div>
 </header>
-
-
-
-    <!-- fin entête -->
-
-
-
-    <!--le main -->
-
-
-<!-- formulaire contact -->
-
-<section id="formulaireB">
-
-	<form id="formulaire" name="formulaire">
-
-		<p>SocialClubGirl <br> Laissez nous un petit mot </p>
-
-
-		<p>Nom:<br>
-			<input class="espacegauche" type="text" name="txtNom" placeholder="Nom Prenom" required>
-		</p>
-
-		<p>
-			Message: <b>*</b><br>
-			<textarea class="choix" name="comm" rows=10 cols=50 required placeholder="la longeur de votre message doit etre superiere à 20 caractaires"></textarea>
-		</p>
-
-			<input id="btn" type="submit" name="txtSoumettre" value="Envoyer !" />
-		</p>
-	</form>
-
-
-
-</section>
-
-
-
-	<footer id="footer">
-		
-		<p>
-		<i class="fab fa-facebook-square"></i> <i class="fab fa-twitter-square"></i> <i class="fab fa-instagram"></i> <i class="fab fa-youtube-square"></i> <br><br>
-		Copyright : Meriem androussi. - 2021</p>
-		<p>source: Images: Google images</p>
-
-
-	</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>

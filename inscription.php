@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -22,31 +25,41 @@
 <!-- entête -->
 
 <header class="container">
-  <!-- logo -->
-  <div class="color">
-    <div class="logo"><a href="index.php"><img src="img/logo2.png" alt="logo"/></a></div>
+    <!-- logo -->
+    <div class="color">
+        <div class="logo"><a class="img-logo" href="index.php"><img  class="img-logo" src="img/logo2.png" alt="logo"/></a></div>
 
 
-    <!-- navigation -->
-    <nav class="menu-container">
-      <div class="menu-toggle">Menu</div>
-      <ul>
-        <li><a href="index.php">Accueil</a></li>
-        <li><a href="carte.php">La carte</a></li>
-        <li><a href="philo.php">Philosophie</a></li>
-        <li><a href="livreOr.php" class="contact">Livre d'or </a> </li>
-        <li><a href="inscription.php" class="contact">S'inscrire  </a> </li>
-        <li><a href="connexion.php" class="contact">Se connecter   </a> </li>
+        <!-- navigation -->
+        <nav class="menu-container">
+            <div class="menu-toggle">Menu</div>
+            <ul>
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="carte.php">La carte</a></li>
+                <li><a href="philo.php">Philosophie</a></li>
+                <li><a href="livreOr.php" class="contact">Livre d'or </a></li>
+                <li><a href="inscription.php" class="contact">S'inscrire </a></li>
+                <li class="bienvenu"><?php if (isset($_SESSION["user"]) ) {
+                        echo "Bienvenu " . $_SESSION["user"];
 
 
-      </ul>
+                    }
+                    else{
+                        echo '<a href="connexion.php" class="contact">Se connecter </a>';
+                    }?> </li>
+                <?php if(isset($_SESSION["user"])) {
+                    echo "<li><a href='php/deconnection.php'>Déconnection</a></li>";
+                } ?>
 
-    </nav>
-    <!-- barre de recherche -->
 
 
 
-  </div>
+            </ul>
+
+        </nav>
+
+
+    </div>
 </header>
 
 
