@@ -43,7 +43,7 @@ session_start();
                 <li class="bienvenu"><?php if (isset($_SESSION["user"]) ) {
                         echo "Bienvenu " . $_SESSION["user"];
 
-
+/*session*/
                     }
                     else{
                         echo '<a href="connexion.php" class="contact">Se connecter </a>';

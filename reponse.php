@@ -16,5 +16,4 @@ else{
     header("Location: inscription.php");
 }
 
-
 ?>
