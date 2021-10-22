@@ -15,14 +15,14 @@ session_start();
 
 
   <link rel="stylesheet" href="css/style.css">
-
+   <script src="js/script.js" defer> </script>
 </head>
 
 
 <body>
 
 
-<!-- entête -->
+ entête
 
 <header class="container">
     <!-- logo -->
@@ -68,21 +68,28 @@ session_start();
 
 <section id="formulaireB">
 
-  <form id="formulaire" method="post"action="reponse.php" name="formulaire">
+  <form data-form id="formulaire" method="post"action="reponse.php" name="formulaire">
 
     <p>SocialClubGirl <br> Créer un compte  </p>
 
 
-    <p>Pseudo:<b>*</b><br>
-      <input class="espacegauche" type="text" name="userInfoName" placeholder="Nom Prenom" required>
+    <p data-label-utilisateur>Pseudo:<b>*</b><br>
+      <input data-input-utilisateur class="espacegauche" type="text" name="userInfoName" placeholder="user name " required>
     </p>
+      <p data-text-error1 class="error hidden "> * Chanps obligatoire</p>
 
-    <p>Mot de passe :<b>*</b><br>
-      <input class="espacegauche" type="text" name="userInfoPass" placeholder="Nom Prenom" required>
+    <p data-label-mdp>Mot de passe :<b>*</b><br>
+      <input data-input-mdp class="espacegauche" type="text" name="userInfoPass" placeholder="*********" required>
     </p>
+      <p data-text-error2 class="error hidden">* Format mot de passe invalide .
+          Le mot de passe sera validé que si il a de 8 a 15 caractères,
+          au moins une lettre minuscule, au moins une lettre majuscule,
+          au moins un chiffre, au moins un de ces caractères spéciaux: $ @ % * + - _ ! ,
+          aucun autre caractère possible: pas de & ni de { par exemple.</p>
 
-    <input id="btn" type="submit" name="txtSoumettre" value="Envoyer !" />
-    </p>
+
+    <input data-js-button id="btn" type="submit" name="txtSoumettre" value="Envoyer !" />
+
   </form>
 
 
