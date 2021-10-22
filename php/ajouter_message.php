@@ -8,13 +8,10 @@ $pseudo =mysqli_real_escape_string($con, $_POST["pseudo"]);
 $message = mysqli_real_escape_string($con, $_POST["message"]);
 $date= date('d-m-Y h:i:s');
 
-echo $_POST["message"];
-echo $_POST["pseudo"];
-echo $date;
 
 
 
-$sql = "INSERT INTO  livreor(pseudo, message, dateMessage) VALUES ('$pseudo','$message', '$date')";
+$sql = "INSERT INTO  livreOr(pseudo, message, dateMessage) VALUES ('$pseudo','$message', '$date')";
 
 $result =  mysqli_query($con, $sql);
 
@@ -24,5 +21,9 @@ if($result){
 
 }
 else{
-    header("Location: ../error.php");
+    echo $_POST["message"]."<BR>";
+    echo $_POST["pseudo"]."<BR>";
+    echo $date."<BR>";
+    echo $sql;
+    echo $result;
 }

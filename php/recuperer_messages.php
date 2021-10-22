@@ -3,7 +3,7 @@
 
 require('connex.php');
 
-$sql = "SELECT * from livreor";
+$sql = "SELECT * from livreOr";
 
 $result = mysqli_query($con, $sql);
 $total = mysqli_num_rows($result);
