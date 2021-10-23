@@ -18,7 +18,7 @@ Utilisation :
 le site contient un livre qui permet de saisir un pseudo et un message  de l'utilisateur pour les futur visiteurs 
 une page de connexion avec session personnalisé "message de bonjour+prenom "
 
-suppot :
+support :
 Meryem.Androussi@gmail.com
 
 
